@@ -1,3 +1,7 @@
+# local RAG corpus (confidential — do not commit)
+document/dobedub/*.md
+!document/dobedub/README.md
+
 # env & secrets
 .env
 .env.*
@@ -8,6 +12,7 @@ __pycache__/
 *.py[cod]
 .venv/
 venv/
+.python-version
 .pytest_cache/
 .mypy_cache/
 .ruff_cache/

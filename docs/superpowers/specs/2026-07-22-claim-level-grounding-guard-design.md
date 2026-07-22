@@ -46,7 +46,9 @@ Monorepo layout (planned):
 ├── apps/web/          # Next.js demo
 ├── services/api/      # FastAPI
 ├── packages/pipeline/ # core grounding logic + evals
-├── data/              # sample Korean corpus + eval set
+├── document/dobedub/  # local Korean corpus (gitignored *.md)
+├── data/eval/         # mini eval set
+├── data/              # corpus_manifest.json
 └── docs/
 ```
 

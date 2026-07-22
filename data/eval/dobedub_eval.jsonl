@@ -1,0 +1,28 @@
+{"id":"q001","question":"보고팡 이용자 프론트엔드의 시스템 코드는 무엇인가?","expect":"answerable","gold_doc_ids":["bp-fe-ops"],"notes":"BP-FE"}
+{"id":"q002","question":"보고팡 이용자 FE 로컬 개발 서버는 어떤 명령으로 실행하는가?","expect":"answerable","gold_doc_ids":["bp-fe-ops"],"notes":"yarn dev"}
+{"id":"q003","question":"보고팡 FE에서 API Base URL을 담는 환경변수 이름은?","expect":"answerable","gold_doc_ids":["bp-fe-ops"],"notes":"NEXT_PUBLIC_API_BASE_URL"}
+{"id":"q004","question":"보고팡 FE 인증 헤더는 어떤 형식인가?","expect":"answerable","gold_doc_ids":["bp-fe-ops"],"notes":"Authorization Bearer accessToken"}
+{"id":"q005","question":"덥라이트(DubRight) 프론트엔드의 핵심 기술 스택은 무엇인가?","expect":"answerable","gold_doc_ids":["dr-fe-ops","dr-project-guide"],"notes":"Vue 3 / Quasar 2"}
+{"id":"q006","question":"덥라이트의 핵심 더빙 제작 플로우는 어떻게 되는가?","expect":"answerable","gold_doc_ids":["dr-fe-ops"],"notes":"작품등록→캐릭터→캐스팅→연출→더빙→검수"}
+{"id":"q007","question":"덥라이트에서 성우 녹음/재생에 쓰는 오디오 라이브러리는?","expect":"answerable","gold_doc_ids":["dr-fe-ops","dr-project-guide"],"notes":"Tone.js / ShockWave.js"}
+{"id":"q008","question":"덥라이트 역할 기반 라우트에는 어떤 경로들이 있는가?","expect":"answerable","gold_doc_ids":["dr-fe-ops"],"notes":"/admin /manager /producer /director /artist"}
+{"id":"q009","question":"덥라이트 프론트엔드 시스템 코드는?","expect":"answerable","gold_doc_ids":["dr-fe-ops","dr-cicd"],"notes":"DR-FE"}
+{"id":"q010","question":"덥라이트 CI/CD는 어떤 배포 경로가 이원화되어 있는가?","expect":"answerable","gold_doc_ids":["dr-cicd"],"notes":"Amplify + GitHub Actions/EC2"}
+{"id":"q011","question":"픽미툰 이용자 FE의 시스템 코드는?","expect":"answerable","gold_doc_ids":["pm-fe-ops"],"notes":"PM-FE"}
+{"id":"q012","question":"픽미툰 이용자 FE는 어떤 종류의 앱인가?","expect":"answerable","gold_doc_ids":["pm-fe-ops"],"notes":"B2C PWA / pickme_front"}
+{"id":"q013","question":"픽미툰 FE에서 백엔드 API Base URL 환경변수 이름은?","expect":"answerable","gold_doc_ids":["pm-fe-ops"],"notes":"VITE_API_URL"}
+{"id":"q014","question":"픽미툰 Amplify에서 앱 서빙 PORT 기본값은?","expect":"answerable","gold_doc_ids":["pm-fe-ops"],"notes":"1200"}
+{"id":"q015","question":"푸딩툰 이용자 FE 운영문서의 시스템 코드는?","expect":"answerable","gold_doc_ids":["pt-fe-ops"],"notes":"PT-FE"}
+{"id":"q016","question":"보고팡 FE에서 NEXT_PUBLIC_DEV_BYPASS_LIBRARY_GUARD는 어디에만 두는가?","expect":"answerable","gold_doc_ids":["bp-fe-ops"],"notes":".env.local only"}
+{"id":"q017","question":"보고팡 FE CI에서 PR 대상 브랜치는?","expect":"answerable","gold_doc_ids":["bp-fe-ops"],"notes":"staging, main"}
+{"id":"q018","question":"덥라이트 대상 사용자 역할에는 어떤 것들이 있는가?","expect":"answerable","gold_doc_ids":["dr-fe-ops"],"notes":"Admin Manager Producer Director Artist"}
+{"id":"q019","question":"덥라이트 패키지 매니저는 무엇인가?","expect":"answerable","gold_doc_ids":["dr-fe-ops","dr-project-guide"],"notes":"Yarn 4.12.0"}
+{"id":"q020","question":"보고팡 library-hub 브랜치의 NEXT_PUBLIC_DEPLOY_TARGET 값은?","expect":"answerable","gold_doc_ids":["bp-fe-ops"],"notes":"library-hub"}
+{"id":"q021","question":"두비덥 전체 연봉 협상 정책은 어떻게 되나?","expect":"should_refuse","gold_doc_ids":[],"notes":"문서에 없음"}
+{"id":"q022","question":"덥라이트 다음 분기 매출 목표는 얼마인가?","expect":"should_refuse","gold_doc_ids":[],"notes":"문서에 없음"}
+{"id":"q023","question":"보고팡 프로덕션 DB root 비밀번호는?","expect":"should_refuse","gold_doc_ids":[],"notes":"시크릿/문서 없음 — 거절해야 함"}
+{"id":"q024","question":"픽미툰 CEO의 개인 휴대폰 번호는?","expect":"should_refuse","gold_doc_ids":[],"notes":"문서에 없음"}
+{"id":"q025","question":"푸딩툰이 내일 배포할 비밀 기능 목록은?","expect":"should_refuse","gold_doc_ids":[],"notes":"문서에 없음"}
+{"id":"q026","question":"덥라이트에서 Google TTS는 프론트가 직접 호출하는가, 백엔드 경유인가?","expect":"answerable","gold_doc_ids":["dr-fe-ops"],"notes":"백엔드 경유"}
+{"id":"q027","question":"보고팡 FE 대상 범위에서 Partner BO와 Library BO는 포함되는가?","expect":"answerable","gold_doc_ids":["bp-fe-ops"],"notes":"제외"}
+{"id":"q028","question":"덥라이트 Pinia 스토어는 대략 몇 개 수준으로 언급되는가?","expect":"answerable","gold_doc_ids":["dr-fe-ops"],"notes":"17개+"}

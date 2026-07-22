@@ -1,0 +1,20 @@
+[project]
+name = "grounding-pipeline"
+version = "0.1.0"
+description = "Claim-level grounding guard pipeline for RAG"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = []
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0"]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["grounding_pipeline"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

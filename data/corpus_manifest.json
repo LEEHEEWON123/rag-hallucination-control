@@ -1,0 +1,18 @@
+{
+  "corpus_root": "document/dobedub",
+  "source": "~/Documents/dobedub",
+  "sync_script": "scripts/sync_dobedub_corpus.sh",
+  "documents": [
+    {"id": "bp-fe-ops", "path": "bp-fe-ops.md", "title": "보고팡 FE 운영"},
+    {"id": "bp-fe-arch", "path": "bp-fe-arch.md", "title": "보고팡 FE 아키텍처"},
+    {"id": "bp-fe-ops-system", "path": "bp-fe-ops-system.md", "title": "보고팡 시스템 운영문서"},
+    {"id": "bp-cicd", "path": "bp-cicd.md", "title": "보고팡 CI/CD"},
+    {"id": "pm-fe-ops", "path": "pm-fe-ops.md", "title": "픽미툰 FE 운영"},
+    {"id": "pt-fe-ops", "path": "pt-fe-ops.md", "title": "푸딩툰 FE 운영"},
+    {"id": "dr-fe-ops", "path": "dr-fe-ops.md", "title": "덥라이트 FE 운영"},
+    {"id": "dr-project-guide", "path": "dr-project-guide.md", "title": "덥라이트 프로젝트 가이드"},
+    {"id": "dr-cicd", "path": "dr-cicd.md", "title": "덥라이트 CI/CD"},
+    {"id": "dr-db-schema", "path": "dr-db-schema.md", "title": "덥라이트 DB 스키마"}
+  ],
+  "eval_path": "data/eval/dobedub_eval.jsonl"
+}
