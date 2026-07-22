@@ -2,18 +2,23 @@
 
 Next.js 데모가 호출하는 **얇은 FastAPI 레이어**.
 
-비즈니스 로직은 `packages/pipeline`에 두고, 여기는 HTTP만 담당한다.
+- `GET /health`
+- `POST /ask` — retrieve → generate → (optional) claim verify
 
-## 실행 (로컬)
+## 실행
 
-repo root에서:
+repo root:
 
 ```bash
-python3.11 -m venv .venv
 source .venv/bin/activate
-pip install -e packages/pipeline
-pip install -e "services/api[dev]"
+pip install -e packages/pipeline -e "services/api[dev]"
 uvicorn app.main:app --reload --app-dir services/api --port 8000
 ```
 
-헬스체크: `GET http://localhost:8000/health`
+Ask 예:
+
+```bash
+curl -s http://localhost:8000/ask \
+  -H 'content-type: application/json' \
+  -d '{"question":"보고팡 이용자 프론트엔드의 시스템 코드는?","guard":true,"top_k":3}'
+```

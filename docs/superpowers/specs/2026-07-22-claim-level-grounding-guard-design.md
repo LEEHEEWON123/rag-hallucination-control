@@ -36,7 +36,8 @@ Ship a **claim-level grounding guard**: every sentence/claim in the answer must 
 | Pipeline | Python | retrieve → generate → claim split → verify → filter/refuse |
 | API | FastAPI | thin HTTP boundary for the demo |
 | Demo | Next.js | ON/OFF UI, claim colors, span highlight, evidence report |
-| Store | Chroma or FAISS (start simple) | vector retrieval |
+| Store | Qdrant (local Docker) | vector retrieval |
+| Embedding | BGE-M3 (`BAAI/bge-m3`) | dense vectors (dim 1024) |
 | LLM | OpenAI / Anthropic / Gemini (one provider first) | generate + judge |
 
 Monorepo layout (planned):

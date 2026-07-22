@@ -4,10 +4,19 @@ version = "0.1.0"
 description = "Claim-level grounding guard pipeline for RAG"
 readme = "README.md"
 requires-python = ">=3.11"
-dependencies = []
+dependencies = [
+    "qdrant-client>=1.12.0",
+    "sentence-transformers>=3.0.0",
+    "torch>=2.2.0",
+    "cursor-sdk>=1.0.0",
+    "python-dotenv>=1.0.0",
+]
 
 [project.optional-dependencies]
 dev = ["pytest>=8.0"]
+
+[project.scripts]
+grounding = "grounding_pipeline.__main__:main"
 
 [build-system]
 requires = ["hatchling"]
